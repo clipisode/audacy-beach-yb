@@ -48,6 +48,18 @@
   color: #fe5000;
 }
 
+#introScreen #nameScreen {
+  width: 94%;
+  background-color: #9466dd;
+  margin: 38% 0;
+}
+
+#nameScreen label,
+#nameScreen h1,
+#nameScreen p {
+  color: white;
+}
+
 #successScreen #message p {
   color: black;
 }

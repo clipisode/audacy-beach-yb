@@ -47,11 +47,7 @@ export const siteData: any = {
   nameScreen: {
     // values: UPLOAD_PERCENTAGE, INVITATION_DISPLAY_NAME, SOCIAL_NETWORK
     saveButtonLabel: "Save my video",
-    nameScreenHeader: `
-      <div class="my-2 flex flex-col items-center">
-        <img src="THEME_FILE_ROOT/icon.png" class="h-16 rounded-full" />
-      </div>
-    `,
+    nameScreenHeader: ` `,
   },
   closedScreen: {
     // values: THEME_FILE_ROOT, INVITATION_DISPLAY_NAME
