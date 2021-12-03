@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@800&family=Poppins&display=fallback");
+
+.ios .iosOnly,
+.android .androidOnly,
+.twitter .twitterOnly,
+.instagram .instagramOnly,
+.tiktok .tiktokOnly,
+.snapchat .snapchatOnly {
+  display: unset;
+}
+
+#introScreen *,
+#nameScreen *,
+#successScreen * {
+  font-family: Poppins;
+}
+
+#nameScreen h1 {
+  font-family: Outfit;
+  text-transform: uppercase;
+}
+
+#introScreen #noVideoArea,
+#successScreen {
+  background: unset;
+  background-image: url(./intro.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#introScreen #introTop {
+  background: unset;
+}
+
+#introScreen a {
+  color: #fe5000;
+}
+
+#introScreen #recordButton,
+#buttonsContainer button {
+  background-color: #fe5000;
+  font-family: Outfit;
+  text-transform: uppercase;
+}
+
+#introScreen #uploadLink span,
+#successScreen #message h1 {
+  color: #fe5000;
+}
+
+#successScreen #message p {
+  color: black;
+}
+#introScreen #introTerms {
+  margin-top: 12px;
+  color: black;
+}
+
+#introScreen #introBottom,
+#successScreen #message {
+  margin-top: 100px;
+  padding-top: 8px;
+  margin-bottom: 40px;
+  padding-bottom: 8px;
+  margin-right: 20px;
+  padding-left: 20px;
+  background: #f9eaaf;
+}
+
+#successScreen #message {
+  color: black;
+  position: absolute;
+  bottom: 0;
+  width: 95%;
+  margin-bottom: 80px;
+}
+
+#successScreen {
+  background-color: black;
+}
+
+#successScreen p {
+  font-family: Poppins;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+#successScreen h1 {
+  font-family: Outfit;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 1.2;
+}
